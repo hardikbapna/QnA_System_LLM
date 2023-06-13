@@ -52,4 +52,4 @@ def save_vector(texts, embeddings):
     return index_vector   
 
 
-#initialize_pinecone()
+
