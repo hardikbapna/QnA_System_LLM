@@ -1,0 +1,9 @@
+This is Open AI API key:
+                #open_api_key= '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'
+
+This is Pinecone API Key:
+                #pinecone_api_key= "c90ca707-e6aa-43d9-924b-cbcd0a60c80f"
+                #pinecone_environment= "us-west1-gcp-free"
+
+This is Open AI api key(no longer valid):
+                #qna_test_api_key= "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"
