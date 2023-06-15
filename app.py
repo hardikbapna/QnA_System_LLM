@@ -15,7 +15,7 @@ import Src.LLM.LLM_functionality as llm_func
 
 
 
-with gr.Blocks(port=8080) as demo:
+with gr.Blocks() as demo:
 
     with gr.Column():
         with gr.Row():
