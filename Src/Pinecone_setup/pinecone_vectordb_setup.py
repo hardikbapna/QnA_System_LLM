@@ -1,13 +1,14 @@
 import pinecone
 from langchain.vectorstores import Pinecone
 import os
+import config as cnf
 from dotenv import load_dotenv
 load_dotenv()
 
 
 
-pinecone_environment= "us-west1-gcp-free"
-index_name= "qna-system-openai-1536-dim"
+pinecone_environment= cnf.pinecone_config["Pinecone"]["pinecone_environment"]
+index_name= cnf.pinecone_config["Pinecone"]["index_name"]
 
 
 def initialize_pinecone():
